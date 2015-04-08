@@ -1,2 +1,5 @@
 # novaguiaredirect
-Uma extensão para Google Chrome onde pode ser configurada uma URL para ser aberta quando aberta uma nova guia no navegador.
+Configure uma página qualquer para ser aberta toda vez que abrir uma nova aba em branco no navegador.
+
+https://chrome.google.com/webstore/detail/nova-guia-redirect/jbkojnjgjfpgmnjcmdkgjjpbgchblkjn
+
