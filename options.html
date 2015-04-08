@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title>Opções</title>
+        <style type="text/css">
+            body {
+                margin: 0 auto;
+                background-color: #eeeeee;
+                font-size: 18px;
+                color: #666666;
+                width: 80%;
+                min-width: 650px;
+                padding-top: 50px;
+            }
+            .panel{
+                margin: 0 auto;
+                border: 1px solid #cccccc;
+                padding: 50px;
+                background: #ffffff;
+                border-radius: 4px;
+            }
+            input#url{
+                border-radius: 4px;
+                border: 1px solid #cccccc;
+                padding: 10px;
+                font-size: 18px;
+                width: 90%;
+            }
+            button#save{
+                background: rgb(21, 113, 255);
+                color: #ffffff;
+                border: 0;
+                padding: 10px 25px;
+                font-size: 18px;
+                border-radius: 4px;
+                font-weight: bold;
+            }
+            span#message{
+                font-size: 12px;
+                font-weight: bold;
+                padding: 10px;
+                color: #000000;
+            }
+        </style>
+    </head>
+    <body>
+
+        <h1 style="color:#000000;"><img src="img/icon.png" height="48" style="vertical-align:text-top;">Nova Guia Redirect <small style="font-size:24px;color:#666666;">Configurações</small></h1>
+
+        <div class="panel">
+
+            <h2>Insira a url que deseja ser redirecionado quando abrir uma nova guia:</h2>
+            
+            <p>
+                <label for="url">http://</label>
+                <input type="text" id="url">
+            </p>
+
+            <br><br>
+
+            <p>
+                <button id="save">Salvar</button>
+                <span id="message"></span>
+            </p>            
+
+        </div>
+
+        <p style="float:right; font-size:10px">Desenvolvido por <a href="https://br.linkedin.com/in/samueledson" title="Linkedin" target="_blank">Samuel Edson</a></p>
+        
+        <script src="js/options.js"></script>
+    </body>
+</html>
